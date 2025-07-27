@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ремонтяш — ремонт бытовой техники в Хабаровске</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    header p {
+      margin: 5px 0 0;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+    }
+    .services li {
+      background-color: #ecf0f1;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .services img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+    .benefits {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .form-section input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .form-section button {
+      background-color: #2980b9;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    a {
+      color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ремонтяш</h1>
+    <p>Профессиональный ремонт бытовой техники в Хабаровске</p>
+  </header>
+
+  <section class="section services">
+    <h2>Что мы ремонтируем</h2>
+    <ul>
+      <li>
+        <img src="https://images.pexels.com/photos/5591460/pexels-photo-5591460.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Стиральная машина">
+        Стиральные машины
+      </li>
+      <li>
+        <img src="https://images.pexels.com/photos/3735286/pexels-photo-3735286.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Холодильник">
+        Холодильники
+      </li>
+      <li>
+        <img src="https://images.pexels.com/photos/6207826/pexels-photo-6207826.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Микроволновка">
+        Микроволновки
+      </li>
+      <li>
+        <img src="https://images.pexels.com/photos/8566449/pexels-photo-8566449.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Пылесос">
+        Пылесосы
+      </li>
+      <li>
+        <img src="https://images.pexels.com/photos/7319260/pexels-photo-7319260.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Чайник">
+        Чайники
+      </li>
+      <li>
+        <img src="https://images.pexels.com/photos/4009405/pexels-photo-4009405.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Телевизор">
+        Телевизоры
+      </li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Почему выбирают нас</h2>
+    <div class="benefits">
+      <p>✅ Гарантия на все работы</p>
+      <p>🔧 Большой опыт в ремонте техники</p>
+      <p>🛠️ Используем оригинальные запчасти</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Как мы работаем</h2>
+    <p>Вы приносите технику в мастерскую по адресу:</p>
+    <p><strong>Хабаровск, ул. Пушкина, дом Колотушкина</strong></p>
+    <p>После диагностики мы связываемся с вами, называем стоимость и сроки.</p>
+  </section>
+
+  <section class="section form-section">
+    <h2>Оставить заявку</h2>
+    <form>
+      <input type="text" name="name" placeholder="Ваше имя" required />
+      <input type="tel" name="phone" placeholder="Телефон" required />
+      <button type="submit">Отправить</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Ремонтяш — ремонт бытовой техники в Хабаровске</p>
+    <p>Связаться: <a href="mailto:abc123321@gmail.com">abc123321@gmail.com</a></p>
+  </footer>
+</body>
+</html>
